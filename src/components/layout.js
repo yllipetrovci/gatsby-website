@@ -9,9 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import "./layout.css"
 import TransitionPage from './transition-page';
+import Footer from './footer';
+import Navigation from './navigation';
 import '../styles/portal.scss';
 
 const Layout = ({ children }) => (
@@ -29,7 +30,7 @@ const Layout = ({ children }) => (
       return (
         <>
           <TransitionPage>
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Navigation />
             <div
               style={{
                 margin: `0 auto`,
@@ -39,12 +40,9 @@ const Layout = ({ children }) => (
               }}
             >
               <main>{children}</main>
-              <footer>
-                © {new Date().getFullYear()}, Built with
-            {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a>
-              </footer>
+
               <button type="button" className="btn btn-primary">Click</button>
+              <Footer />
             </div>
           </TransitionPage>
         </>
