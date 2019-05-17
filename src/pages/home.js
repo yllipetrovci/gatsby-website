@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import '../styles/pages/home.scss';
+//icons
 import dotsIcon from '../images/icons/dots.png';
+import heartIcon from '../images/icons/heart.png';
+import computerIcon from '../images/icons/pc.png';
+import mobileIcon from '../images/icons/mobile.png';
+import paintIcon from '../images/icons/paint.png';
+import gameIcon from '../images/icons/game.png';
+import searchEngineIcon from '../images/icons/search-engine.png';
+//backgrounds
 import imageOne from '../images/backgrounds/img-one.png';
+import ExpertiseCard from '../components/expertise-card';
 
 class Home extends Component {
 
@@ -61,13 +70,56 @@ class Home extends Component {
                     <div className="container">
                         <div className="row">
                             <div className='col-12'>
-                                <h2>EXPERTISE</h2>
+                                <h2 className="text-center">EXPERTISE</h2>
                             </div>
                             <div className="col-12">
-                                <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                                <p className="text-center">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
                             </div>
-                            <div className='col-12'>
-                                {/* Cards */}
+                            <div className='col-12 text-center'>
+                                <div className="row">
+                                    <div className="col-12 col-sm-6 col-md-4">
+                                        <ExpertiseCard
+                                            img={computerIcon}
+                                            title="WEB DESIGN & DEVELOPMENT"
+                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                        />
+                                    </div>
+                                    <div className="col-12 col-sm-6 col-md-4">
+                                        <ExpertiseCard
+                                            img={paintIcon}
+                                            title="BRANDING IDENTITY"
+                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                        />
+                                    </div>
+                                    <div className="col-12 col-sm-6 col-md-4">
+                                        <ExpertiseCard
+                                            img={mobileIcon}
+                                            title="MOBILE APP"
+                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                        />
+                                    </div>
+                                    <div className="col-12 col-sm-6 col-md-4">
+                                        <ExpertiseCard
+                                            img={searchEngineIcon}
+                                            title="SEARCH ENGINE OPTIMIZATION"
+                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                        />
+                                    </div>
+                                    <div className="col-12 col-sm-6 col-md-4">
+                                        <ExpertiseCard
+                                            img={gameIcon}
+                                            title="GAME DEVELOPMENT"
+                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                        />
+                                    </div>
+                                    <div className="col-12 col-sm-6 col-md-4">
+                                        <ExpertiseCard
+                                            img={heartIcon}
+                                            title="GAME DEVELOPMENT"
+                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
