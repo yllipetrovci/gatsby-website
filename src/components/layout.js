@@ -13,7 +13,7 @@ import "./layout.css"
 import TransitionPage from './transition-page';
 import Footer from './footer';
 import Navigation from './navigation';
-import '../styles/portal.scss';
+import '../styles/index.scss';
 
 const Layout = ({ children }) => (
   <StaticQuery
