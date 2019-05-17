@@ -66,28 +66,26 @@ class Home extends Component {
                 <section className="meet-our-organization-team-section">
                     <div className="container">
                         <div className="row">
-                            <div className="row">
-                                <div className="col-12">
-                                    <h2>MEET OUR AMAIZING TEAM</h2>
-                                </div>
-                                <div className="col-12">
-                                    <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                                </div>
-                                <div className="col-12">
-                                    {/* Cards */}
-                                </div>
-                                <div className="col-12">
-                                    <p>Become part of our dream team, let's join us!</p>
-                                </div>
-                                <div className="col-12">
-                                    <button type="button" >WE ARE HIRING</button>
-                                </div>
+                            <div className="col-12">
+                                <h2>MEET OUR AMAIZING TEAM</h2>
+                            </div>
+                            <div className="col-12">
+                                <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                            </div>
+                            <div className="col-12">
+                                {/* Cards */}
+                            </div>
+                            <div className="col-12">
+                                <p>Become part of our dream team, let's join us!</p>
+                            </div>
+                            <div className="col-12">
+                                <button type="button" >WE ARE HIRING</button>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section className="form-section">
-                    <div clasName="container">
+                    <div className="container">
                         <div className="row">
                             <div className="col-12">
                                 <h2>GIVE US A GOOD NEWS</h2>
@@ -108,9 +106,10 @@ class Home extends Component {
                                 <div className="col-12">
                                     <button type="button" >
                                         SUBMIT
-                                </button>
+                                    </button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </section>
