@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Footer from '../components/footer';
-// import Navigation from '../components/navigation';
+import '../styles/pages/home.scss';
+
 class Home extends Component {
 
     render() {
@@ -114,7 +114,6 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <Footer />
             </div>
         )
     }
