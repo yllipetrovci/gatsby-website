@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/pages/home.scss';
+import dotsIcon from '../images/icons/dots.png';
+import imageOne from '../images/backgrounds/img-one.png';
 
 class Home extends Component {
 
@@ -11,12 +13,18 @@ class Home extends Component {
                         <header>
                             <div className="row">
                                 <div className="col-12">
-                                    <h1>We Are Awesome Creative Agency</h1>
+                                    <h1 className="text-center">We Are Awesome Creative Agency</h1>
                                 </div>
                                 <div className="col-12">
-                                    <p>
+                                    <p className="text-center">
                                         This is photoshop's version of Lorem Ipsum. Proin gravida nibh vel veilt auctor aliquet
-                                </p>
+                                    </p>
+                                </div>
+                                <div className="col-12 text-center">
+                                    <button type="button" className="btn btn-outline-primary">LEARN MORE</button>
+                                </div>
+                                <div className="col-12 text-center">
+                                    <img src={dotsIcon} alt="dots image" />
                                 </div>
                             </div>
                         </header>
@@ -25,7 +33,8 @@ class Home extends Component {
                 <section className="out-story-section">
                     <div className="container">
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-6 text-center">
+                                <img src={imageOne} alt="img one" />
                             </div>
                             <div className="col-6">
                                 <div className="col-12">
@@ -34,8 +43,8 @@ class Home extends Component {
                                 <div className="col-12">
                                     <p>Lorem ipsum Lorem ipsum Lorem ipsum</p>
                                 </div>
-                                <div className="col-12">
-                                    <button type="button">Learn More</button>
+                                <div className="col-12 text-left">
+                                    <button type="button" className="btn btn-outline-primary">LEARN MORE</button>
                                 </div>
                             </div>
                         </div>
