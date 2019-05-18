@@ -1,11 +1,23 @@
 .home-view {
-  h1,
-  p {
-    color: #fff;
-  }
   .header-section {
+    h1,
+    p {
+      color: #fff;
+    }
+
+    h1:after {
+      content: "";
+      width: 50px;
+      height: 1.5px;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0px;
+      background-color: #58bc6a;
+    }
     position: relative;
-    height: 200px; //temp
+    // height: 200px; //temp
     &:before {
       content: "";
       background-image: url(../../images/backgrounds/bg-header.jpg);
@@ -58,6 +70,10 @@
   }
 
   .meet-our-organization-team-section {
+    h2,
+    p {
+      color: #fff;
+    }
     position: relative;
 
     &:before {

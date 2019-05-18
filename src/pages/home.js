@@ -12,6 +12,7 @@ import searchEngineIcon from '../images/icons/search-engine.png';
 import imageOne from '../images/backgrounds/img-one.png';
 import ExpertiseCard from '../components/expertise-card';
 import playVideoIcon from '../images/icons/play-video.png';
+import Navigation from '../components/navigation';
 
 class Home extends Component {
 
@@ -21,19 +22,24 @@ class Home extends Component {
                 <section className="header-section">
                     <div className="container">
                         <header>
-                            <div className="row">
-                                <div className="col-12">
+                            <Navigation />
+                            <div className="row pt-5">
+                                <div className="col-12 pt-5">
                                     <h1 className="text-center">We Are Awesome Creative Agency</h1>
                                 </div>
                                 <div className="col-12">
-                                    <p className="text-center">
-                                        This is photoshop's version of Lorem Ipsum. Proin gravida nibh vel veilt auctor aliquet
+                                    <p className="text-center pb-2 pt-3 pl-5 pr-5">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
                                     </p>
                                 </div>
-                                <div className="col-12 text-center">
+                                <div className="col-12 text-center pt-5 pb-5">
                                     <button type="button" className="btn btn-outline-primary">LEARN MORE</button>
                                 </div>
-                                <div className="col-12 text-center">
+                                <div className="col-12 text-center pb-5">
                                     <img src={dotsIcon} alt="dots" />
                                 </div>
                             </div>
@@ -51,7 +57,18 @@ class Home extends Component {
                                     <h2>OUR STORY</h2>
                                 </div>
                                 <div className="col-12">
-                                    <p>Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                    </p>
+                                    <p className="mt-2">
+                                        electronic typesetting, remaining essentially unchanged. It was popularised in
+                                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                        and more recently with desktop publishing software like Aldus PageMaker including
+                                        versions of Lorem Ipsum.
+                                    </p>
                                 </div>
                                 <div className="col-12 text-left">
                                     <button type="button" className="btn btn-outline-primary">LEARN MORE</button>
@@ -70,7 +87,7 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className="expertise-section">
-                    <div className="container">
+                    <div className="container pt-3 pb-5">
                         <div className="row">
                             <div className='col-12'>
                                 <h2 className="text-center">EXPERTISE</h2>
@@ -149,7 +166,7 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className="form-section">
-                    <div className="container">
+                    <div className="container pt-5 pb-5">
                         <div className="row">
                             <div className="col-12 col-md-6">
                                 <div className="col-12">
