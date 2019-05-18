@@ -1,7 +1,6 @@
 .footer-component {
   position: relative;
-//   width: 100%;
-  height: 200px;//temp
+
   &:before {
     content: "";
     background-image: url(../../images/backgrounds/footer-bg.jpg);
@@ -13,5 +12,15 @@
     position: absolute;
     top: 0;
     z-index: -1;
+  }
+
+  h5,
+  p,
+  ul li {
+    color: #fff;
+  }
+
+  p {
+    font-size: 13px;
   }
 }
