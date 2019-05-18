@@ -1,0 +1,8 @@
+//button colors
+$primary-btn-color: #47AEAD;
+
+$theme-colors: (
+  "primary": $primary-btn-color,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
