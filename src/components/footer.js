@@ -25,8 +25,6 @@ const Footer = () => {
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
                                 <p>
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
                                     specimen book. It has survived not only five centuries, but also the leap into
                                     electronic
                                 </p>
@@ -77,7 +75,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12">
+                            <div className="col-12 pt-4">
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
                                         <img src={fbIcon} alt="facebook" />
@@ -99,7 +97,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row pt-5">
                     <div className="col-6">
                         <ul className="list-inline">
                             <li className="list-inline-item">HELP</li>
@@ -107,7 +105,7 @@ const Footer = () => {
                             <li className="list-inline-item">PRIVACY</li>
                         </ul>
                     </div>
-                    <div className="col-6 text-right">
+                    <div className="offset-2 col-3">
                         <p>Copyright © {new Date().getFullYear()} - Lorem</p>
                     </div>
                 </div>
