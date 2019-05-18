@@ -49,10 +49,10 @@ class Home extends Component {
                 <section className="out-story-section">
                     <div className="container pb-5 pt-5">
                         <div className="row">
-                            <div className="col-6 text-center">
+                            <div className="col-12 col-md-6 text-center">
                                 <img src={imageOne} alt="img one" />
                             </div>
-                            <div className="col-6">
+                            <div className="col-12 col-md-6 pt-3 pt-md-0">
                                 <div className="col-12">
                                     <h2>OUR STORY</h2>
                                 </div>
