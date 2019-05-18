@@ -34,7 +34,7 @@ class Home extends Component {
                                     <button type="button" className="btn btn-outline-primary">LEARN MORE</button>
                                 </div>
                                 <div className="col-12 text-center">
-                                    <img src={dotsIcon} alt="dots image" />
+                                    <img src={dotsIcon} alt="dots" />
                                 </div>
                             </div>
                         </header>
