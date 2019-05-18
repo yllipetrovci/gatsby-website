@@ -11,6 +11,7 @@ import searchEngineIcon from '../images/icons/search-engine.png';
 //backgrounds
 import imageOne from '../images/backgrounds/img-one.png';
 import ExpertiseCard from '../components/expertise-card';
+import playVideoIcon from '../images/icons/play-video.png';
 
 class Home extends Component {
 
@@ -40,7 +41,7 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className="out-story-section">
-                    <div className="container">
+                    <div className="container pb-5 pt-5">
                         <div className="row">
                             <div className="col-6 text-center">
                                 <img src={imageOne} alt="img one" />
@@ -60,9 +61,11 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className="watch-our-story-section">
-                    <div className="container">
+                    <div className="container pt-5 pb-5">
                         <div className="row">
-                            {/* IMG */}
+                            <div className="col-12 text-center pt-5 pb-5">
+                                <img src={playVideoIcon} alt="play video icon" />
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -77,42 +80,42 @@ class Home extends Component {
                             </div>
                             <div className='col-12 text-center'>
                                 <div className="row">
-                                    <div className="col-12 col-sm-6 col-md-4">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
                                         <ExpertiseCard
                                             img={computerIcon}
                                             title="WEB DESIGN & DEVELOPMENT"
                                             paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
                                         <ExpertiseCard
                                             img={paintIcon}
                                             title="BRANDING IDENTITY"
                                             paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
                                         <ExpertiseCard
                                             img={mobileIcon}
                                             title="MOBILE APP"
                                             paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
                                         <ExpertiseCard
                                             img={searchEngineIcon}
                                             title="SEARCH ENGINE OPTIMIZATION"
                                             paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
                                         <ExpertiseCard
                                             img={gameIcon}
                                             title="GAME DEVELOPMENT"
                                             paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
                                         <ExpertiseCard
                                             img={heartIcon}
                                             title="GAME DEVELOPMENT"
@@ -126,7 +129,7 @@ class Home extends Component {
                 </section>
                 <section className="meet-our-organization-team-section">
                     <div className="container">
-                        <div className="row">
+                        <div className="row text-center">
                             <div className="col-12">
                                 <h2>MEET OUR AMAIZING TEAM</h2>
                             </div>
@@ -140,7 +143,7 @@ class Home extends Component {
                                 <p>Become part of our dream team, let's join us!</p>
                             </div>
                             <div className="col-12">
-                                <button type="button" >WE ARE HIRING</button>
+                                <button type="button" className="btn btn-outline-primary" >WE ARE HIRING</button>
                             </div>
                         </div>
                     </div>
@@ -148,24 +151,24 @@ class Home extends Component {
                 <section className="form-section">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12">
-                                <h2>GIVE US A GOOD NEWS</h2>
-                            </div>
                             <div className="col-12 col-md-6">
                                 <div className="col-12">
-                                    <input type="text" placeholder="Name" />
+                                    <h2>GIVE US A GOOD NEWS</h2>
                                 </div>
-                                <div className="col-12">
-                                    <input type="text" placeholder="Email" />
+                                <div className="col-12 pt-2">
+                                    <input type="text" className="form-control" placeholder="Name" />
                                 </div>
-                                <div className="col-12">
-                                    <input type="text" placeholder="Subject" />
+                                <div className="col-12 pt-2">
+                                    <input type="text" className="form-control" placeholder="Email" />
                                 </div>
-                                <div className="col-12">
-                                    <textarea type="text" placeholder="Your Message" />
+                                <div className="col-12 pt-2">
+                                    <input type="text" className="form-control" placeholder="Subject" />
                                 </div>
-                                <div className="col-12">
-                                    <button type="button" >
+                                <div className="col-12 pt-2">
+                                    <textarea type="text" className="form-control" placeholder="Your Message" />
+                                </div>
+                                <div className="col-12 pt-2">
+                                    <button type="button" className="btn btn-outline-primary" >
                                         SUBMIT
                                     </button>
                                 </div>
