@@ -11,12 +11,12 @@ import PropTypes from "prop-types"
 import "../styles/components/layout.scss"
 import TransitionPage from './transition-page';
 import Footer from './footer';
-import Navigation from './navigation';
+// import Navigation from './navigation';
 import '../styles/index.scss';
 
 const Layout = ({ children }) => (
   <div className="layout-component">
-    <Navigation />
+    {/* <Navigation /> */}
     <TransitionPage>
       <main>{children}</main>
     </TransitionPage>
