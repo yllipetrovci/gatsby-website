@@ -15,7 +15,7 @@ const Footer = () => {
         <footer className="footer-component">
             <div className="container pt-4 pb-4">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-12 col-md-4">
                         <div className="row">
                             <div className="col-12">
                                 <img src={logo} alt="logo" />
@@ -31,7 +31,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-12 col-md-4">
                         <div className="row">
                             <div className="col-12 pt-3">
                                 <h5>OUR STUDIO</h5>
@@ -58,18 +58,18 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-12 col-sm-12 col-md-4">
                         <div className="row">
                             <div className="col-12 pt-3">
                                 <h5>STAY IN TOUCH</h5>
                             </div>
                             <div className="col-12 pt-3">
                                 <div className="row ">
-                                    <div className="col-6">
+                                    <div className="col-12 col-md-6">
                                         <input type="text" placeholder="Subscribe our news letter" />
                                     </div>
-                                    <div className="text-left col-3">
-                                        <button type="button">
+                                    <div className="text-left col-12 col-md-3">
+                                        <button type="button" >
                                             <img src={sendMSGIcon} alt="send message" />
                                         </button>
                                     </div>
@@ -98,14 +98,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="row pt-5">
-                    <div className="col-6">
+                    <div className="col-12 col-md-6">
                         <ul className="list-inline">
                             <li className="list-inline-item">HELP</li>
                             <li className="list-inline-item">TERMS & CONDITION</li>
                             <li className="list-inline-item">PRIVACY</li>
                         </ul>
                     </div>
-                    <div className="offset-2 col-3">
+                    <div className="col-12 col-md-6">
                         <p>Copyright © {new Date().getFullYear()} - Lorem</p>
                     </div>
                 </div>
