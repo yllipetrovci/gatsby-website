@@ -89,54 +89,60 @@ class Home extends Component {
                 <section className="expertise-section">
                     <div className="container pt-3 pb-5">
                         <div className="row">
-                            <div className='col-12'>
+                            <div className='col-12 pt-3 pb-2'>
                                 <h2 className="text-center">EXPERTISE</h2>
                             </div>
-                            <div className="col-12">
+                            <div className="col-12 pt-1 pb-3">
                                 <p className="text-center">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
                             </div>
                             <div className='col-12 text-center'>
                                 <div className="row">
-                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0 border border-top-0 border-left-0">
                                         <ExpertiseCard
                                             img={computerIcon}
                                             title="WEB DESIGN & DEVELOPMENT"
-                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                            paragraph="Lorem Ipsum is simply dummy 
+                                            text of the printing and typesetting industry."
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0 border border-top-0 border-left-0">
                                         <ExpertiseCard
                                             img={paintIcon}
                                             title="BRANDING IDENTITY"
-                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                            paragraph="Lorem Ipsum is simply dummy 
+                                            text of the printing and typesetting industry."
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0 border border-top-0 border-left-0 border-right-0">
                                         <ExpertiseCard
                                             img={mobileIcon}
                                             title="MOBILE APP"
-                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                            paragraph="Lorem Ipsum is simply dummy 
+                                            text of the printing and typesetting industry."
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0 border border-top-0 border-left-0 border-bottom-0">
                                         <ExpertiseCard
                                             img={searchEngineIcon}
                                             title="SEARCH ENGINE OPTIMIZATION"
-                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                            paragraph="Lorem Ipsum is simply dummy 
+                                            text of the printing and typesetting industry."
                                         />
                                     </div>
-                                    <div className="col-12 col-sm-6 col-md-4 pr-0">
+                                    <div className="col-12 col-sm-6 col-md-4 pr-0 border border-left-0 border-top-0 border-bottom-0">
                                         <ExpertiseCard
                                             img={gameIcon}
                                             title="GAME DEVELOPMENT"
-                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                            paragraph="Lorem Ipsum is simply dummy 
+                                            text of the printing and typesetting industry."
                                         />
                                     </div>
                                     <div className="col-12 col-sm-6 col-md-4 pr-0">
                                         <ExpertiseCard
                                             img={heartIcon}
                                             title="GAME DEVELOPMENT"
-                                            paragraph="Lorem ipsum dolor sit amet proin gravida nibh vel velit"
+                                            paragraph="Lorem Ipsum is simply dummy 
+                                            text of the printing and typesetting industry."
                                         />
                                     </div>
                                 </div>
