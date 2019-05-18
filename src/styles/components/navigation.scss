@@ -3,5 +3,10 @@
         color:#fff;
         font-size:13px;
         font-weight: bold;
+        &:active, &:hover{
+           color:#63E5D0; 
+        }
+
+        cursor: pointer;
     }
 }
