@@ -145,9 +145,9 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className="meet-our-organization-team-section">
-                    <div className="container">
+                    <div className="container pt-5 pb-5">
                         <div className="row text-center">
-                            <div className="col-12">
+                            <div className="col-12 pt-3 pb-3">
                                 <h2>MEET OUR AMAIZING TEAM</h2>
                             </div>
                             <div className="col-12">
