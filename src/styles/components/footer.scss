@@ -14,19 +14,29 @@
     z-index: -1;
   }
 
-  button{
-    border:none;
+  button {
+    border: none;
     outline: none;
-    background: #9F97B0;
+    background: #9f97b0;
   }
-  
+
   h5,
   p,
   ul li {
     color: #fff;
+    font-size:14px;
+    font-family: 'robot';
+  }
+  h5 {
+    font-family: "robot";
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
   }
 
   p {
-    font-size: 13px;
+    font-family:'robot';
+    font-size: 14px;
   }
+
 }

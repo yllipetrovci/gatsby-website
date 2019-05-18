@@ -196,7 +196,6 @@ class Home extends Component {
                                     </button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
