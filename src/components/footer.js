@@ -38,20 +38,20 @@ const Footer = () => {
                             </div>
                             <div className="col-12 pt-3">
                                 <div className="row">
-                                    <div className="col-2">
+                                    <div className="col-1">
                                         <img src={locationIcon} alt="location" />
                                     </div>
-                                    <div className="col-10">
+                                    <div className="col-11">
                                         <p>New York, NYC</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12">
                                 <div className="row">
-                                    <div className="col-2">
+                                    <div className="col-1">
                                         <img src={phoneIcon} alt="location" />
                                     </div>
-                                    <div className="col-10">
+                                    <div className="col-11">
                                         <p>(+62) 21-2224 3333</p>
                                     </div>
                                 </div>
