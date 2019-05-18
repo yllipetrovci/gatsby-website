@@ -4,13 +4,13 @@
     p {
       color: #fff;
     }
-    p{
-      font-family:'roboto';
-      font-size:14px;
+    p {
+      font-family: "roboto";
+      font-size: 14px;
     }
-    h1{
-      font-family: 'Playfair';
-      font-size:32px;
+    h1 {
+      font-family: "Playfair";
+      font-size: 32px;
       font-weight: bold;
     }
 
@@ -42,11 +42,16 @@
   }
 
   .expertise-section {
-    .expertise-card-component {
-      // border: 1px solid black;
+    h6 {
+      font-size: 14px;
+      font-weight: bold;
+      color: #000;
+      font-family: "roboto";
     }
     h2 {
-      color: #000;
+      font-family: "Playfair";
+      color: #413d4b;
+      font-size: 22px;
       font-weight: bold;
       &:after {
         content: "";
@@ -57,12 +62,14 @@
         left: 0;
         right: 0;
         bottom: 0px;
-        background-color: #2c6184;
+        background-color: #413d4b;
       }
     }
 
     p {
-      color: #000;
+      color: #333333;
+      font-family: "roboto";
+      font-size: 14px;
     }
   }
 
@@ -86,6 +93,13 @@
   .out-story-section {
     p {
       color: black;
+      font-size: 14px;
+      font-family: "roboto";
+    }
+    h2 {
+      font-family: "Playfair";
+      font-size: 22px;
+      font-weight: bold;
     }
   }
 
@@ -97,7 +111,12 @@
       color: #fff;
     }
 
-    h2{
+    h2 {
+      font-size: 22px;
+      font-family: "Playfair";
+      font-weight: bold;
+      color: #fff;
+
       &:after {
         content: "";
         width: 50px;
@@ -107,7 +126,12 @@
         left: 0;
         right: 0;
         bottom: 10px;
-        background-color: #2C6184;
+        background-color: #2c6184;
+      }
+
+      p {
+        font-family: "Playfair";
+        font-size: 14px;
       }
     }
 
@@ -122,6 +146,15 @@
       position: absolute;
       top: 0;
       z-index: -1;
+    }
+  }
+
+  .form-section {
+    h2 {
+      font-size: 22px;
+      font-family: "Playfair";
+      color: #413d4b;
+      font-weight: bold;
     }
   }
 }

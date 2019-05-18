@@ -36,7 +36,7 @@ class Home extends Component {
                                         electronic typesetting, remaining essentially unchanged.
                                     </p>
                                 </div>
-                                <div className="col-12 text-center pt-5 pb-5">
+                                <div className="col-12 text-center pt-3 pb-5">
                                     <button type="button" className="btn btn-outline-primary">LEARN MORE</button>
                                 </div>
                                 <div className="col-12 text-center pb-5">
