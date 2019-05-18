@@ -15,17 +15,18 @@
   }
 
   button {
-    border: none;
+    border: 1px solid #89829d;
     outline: none;
     background: #9f97b0;
+    height: 36px;
   }
 
   h5,
   p,
   ul li {
     color: #fff;
-    font-size:14px;
-    font-family: 'robot';
+    font-size: 14px;
+    font-family: "robot";
   }
   h5 {
     font-family: "robot";
@@ -35,8 +36,18 @@
   }
 
   p {
-    font-family:'robot';
+    font-family: "robot";
     font-size: 14px;
   }
+  input {
+    background: transparent;
+    border: 1px solid #89829d;
+    padding: 5px;
+  }
 
+  ::placeholder {
+    font-family: "robot";
+    font-size: 14px;
+    color: #89829d;
+  }
 }
