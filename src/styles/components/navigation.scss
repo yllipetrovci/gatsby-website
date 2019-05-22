@@ -10,12 +10,34 @@
 
     cursor: pointer;
   }
-
+  button {
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+  .nav-mob-ul {
+    // margin-top: 30px;
+    background: #3e3065;
+    li {
+      padding: 12px 0;
+      list-style-type: none;
+      &:active,
+      &:hover {
+        color: #63e5d0;
+      }
+    }
+    border-bottom: 1px solid #fff;
+  }
+  .active .menu-icon {
+    background: #3e3065;
+    border: 1px solid #3e3065;
+  }
   .menu-icon {
     width: 40px;
     height: 40px;
     right: 15px;
     position: absolute;
+
     .line {
       border-bottom: 2px solid #fff;
       height: 11px;
