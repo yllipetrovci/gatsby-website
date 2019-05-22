@@ -15,6 +15,11 @@
     background: transparent;
     outline: none;
   }
+
+  ul {
+    padding: 0;
+  }
+
   .nav-mob-ul {
     // margin-top: 30px;
     background: #3e3065;
@@ -28,10 +33,12 @@
     }
     border-bottom: 1px solid #fff;
   }
+
   .active .menu-icon {
     background: #3e3065;
     border: 1px solid #3e3065;
   }
+  
   .menu-icon {
     width: 40px;
     height: 40px;

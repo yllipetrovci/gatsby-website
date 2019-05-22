@@ -28,7 +28,7 @@ class Navigation extends Component {
                     </div>
 
                     {(this.state.openMobileNav) &&
-                        <div className="offset-8 col-4 mobile-nav-list">
+                        <div className="d-block d-md-none offset-7 col-5 mobile-nav-list">
                             <ul className= {this.state.openMobileNav ? "active nav-mob-ul shadow": "nav-mob-ul shadow" } >
                                 <li className="text-center">HOME</li>
                                 <li className="text-center">ABOUT</li>
