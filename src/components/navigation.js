@@ -9,7 +9,14 @@ class Navigation extends Component {
                     <div className="col-3">
                         <img src={logo} alt="logo" />
                     </div>
-                    <div className="offset-3 col-6 pt-2 pr-0">
+                    <div className="col-9 d-block d-md-none text-right">
+                        <div className="menu-icon">
+                            <div className="line"></div>
+                            <div className="line"></div>
+                            <div className="line"></div>
+                        </div>
+                    </div>
+                    <div className=" d-none d-md-block offset-3 col-6 pt-2 pr-0">
                         <ul className="list-inline">
                             <li className="list-inline-item mr-3">HOME</li>
                             <li className="list-inline-item mr-3">ABOUT</li>
