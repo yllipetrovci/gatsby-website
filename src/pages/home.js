@@ -13,12 +13,26 @@ import imageOne from '../images/backgrounds/img-one.png';
 import ExpertiseCard from '../components/expertise-card';
 import playVideoIcon from '../images/icons/play-video.png';
 import Navigation from '../components/navigation';
+import HelmetExtend from '../components/helmet-extend';
 
 class Home extends Component {
 
     render() {
         return (
             <div className="home-view">
+                <HelmetExtend>
+                        <div metadata="title">
+                            Tajam
+                        </div>
+                        <div metadata="keywords">
+                            Software, development, JS, Node JS, WEB
+                        </div>
+                        <div metadata="path">/</div>
+                        <div metadata="description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard
+                        </div>
+                </HelmetExtend>
                 <section className="header-section">
                     <div className="container">
                         <header>
