@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png';
 import '../styles/components/navigation.scss';
-import '../components/customLink';
+import CustomLink from '../components/customLink';
 class Navigation extends Component {
 
     state = { openMobileNav: false };
@@ -43,37 +43,37 @@ class Navigation extends Component {
                     <div className="d-none d-md-block offset-lg-2 offset-md-0 col-md-9 col-lg-7 pt-2 pr-0 text-right">
                         <ul className="list-inline">
                             <li className="list-inline-item mr-3">
-                                <CustomLink>
+                                <CustomLink activeClassName="active" className="nav-link" to="/" exact="true">
                                     HOME
                                 </CustomLink>
                             </li>
                             <li className="list-inline-item mr-3">
-                                <CustomLink>
+                                <CustomLink activeClassName="active" className="nav-link" to="/about" exact="true">
                                     ABOUT
                                 </CustomLink>
                             </li>
                             <li className="list-inline-item mr-3">
-                                <CustomLink>
+                                <CustomLink activeClassName="active" className="nav-link" to="/epertise" exact="true">
                                     EXPERTISE
                                 </CustomLink>
                             </li>
                             <li className="list-inline-item mr-3">
-                                <CustomLink>
+                                <CustomLink activeClassName="active" className="nav-link" to="/teams" exact="true">
                                     TEAMS
                                 </CustomLink>
                             </li>
                             <li className="list-inline-item mr-3">
-                                <CustomLink>
+                                <CustomLink activeClassName="active" className="nav-link" to="/works" exact="true">
                                     WORKS
                                 </CustomLink>
                             </li>
                             <li className="list-inline-item mr-3">
-                                <CustomLink>
+                                <CustomLink activeClassName="active" className="nav-link" to="/peopleSay" exact="true">
                                     PEOPLE SAY
                                 </CustomLink>
                             </li>
                             <li className="list-inline-item">
-                                <CustomLink>
+                                <CustomLink activeClassName="active" className="nav-link" to="/contact" exact="true">
                                     CONTACT
                                 </CustomLink>
                             </li>
