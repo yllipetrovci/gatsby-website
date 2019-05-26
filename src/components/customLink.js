@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-// import ScrollNavLink from './scroll-navlink';
+import ScrollLink from './scroll-link';
 
 class CustomLink extends React.Component {
 
@@ -11,11 +11,11 @@ class CustomLink extends React.Component {
 
         return (
             <div>
-                {this.props.exact ?
-                    <ScrollNavLink {...this.props} onClick={this.handleClick}>{this.props.children}</ScrollNavLink>
-                    :
+                {/* {this.props.exact ? */}
+                    {/* <ScrollLink {...this.props} onClick={this.handleClick}>{this.props.children}</ScrollLink> */}
+                    {/* : */}
                     <Link getProps={partiallyActive()}{...this.props} onClick={this.handleClick}>{this.props.children}</Link>
-                }
+                {/* } */}
             </div>
         );
     }
