@@ -34,41 +34,41 @@ class Navigation extends Component {
                                 <li className="text-center">
                                     <CustomLink activeClassName="active" className="nav-link" to="/" exact="true">
                                         HOME
-                                </CustomLink>
+                                    </CustomLink>
                                 </li>
                                 <li className="text-center">
                                     <CustomLink activeClassName="active" className="nav-link" to="/about" exact="true">
                                         ABOUT
-                                </CustomLink>
+                                    </CustomLink>
                                 </li>
                                 <li className="text-center">
                                     <CustomLink activeClassName="active" className="nav-link" to="/epertise" exact="true">
                                         EXPERTISE
-                                </CustomLink>
+                                    </CustomLink>
                                 </li>
                                 <li className="text-center">
                                     <CustomLink activeClassName="active" className="nav-link" to="/teams" exact="true">
                                         TEAMS
-                                </CustomLink>
+                                    </CustomLink>
                                 </li>
                                 <li className="text-center">
                                     <CustomLink activeClassName="active" className="nav-link" to="/works" exact="true">
                                         WORKS
-                                </CustomLink>
+                                    </CustomLink>
                                 </li>
                                 <li className="text-center">
                                     <CustomLink activeClassName="active" className="nav-link" to="/peopleSay" exact="true">
                                         PEOPLE SAY
-                                </CustomLink>
+                                    </CustomLink>
                                 </li>
                                 <li className="text-center">
                                     <CustomLink activeClassName="active" className="nav-link" to="/contact" exact="true">
                                         CONTACT
-                                </CustomLink>
+                                    </CustomLink>
                                 </li>
                             </ul>
                         </div>}
-                    <div className="d-none d-md-block offset-lg-2 offset-md-0 col-md-9 col-lg-7 pt-2 pr-0 text-right">
+                    <div className="d-none d-md-block offset-lg-1 offset-md-0 col-md-9 col-lg-8 pt-2 pr-0 text-right">
                         <ul className="list-inline">
                             <li className="list-inline-item mr-3">
                                 <CustomLink activeClassName="active" className="nav-link" to="/" exact="true">
