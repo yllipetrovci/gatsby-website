@@ -1,6 +1,6 @@
 # GatsBy Website Example
 
-This repository contains an example with gatsby framework and demonstrate a really good structured code. Uniqueness of this example is styling which
+This repository contains an example with gatsby framework and demonstrates a really good structured code. Uniqueness of this example is styling which
 esseintaly 90% of styling is based on latest version of bootstrap which is Bootstrap 4 version.
 
 ## Installation
