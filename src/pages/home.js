@@ -17,6 +17,12 @@ import HelmetExtend from '../components/helmet-extend';
 
 class Home extends Component {
 
+
+    handleSubmit(event) {
+        alert('An essay was submitted: ' + this.state.value);
+        event.preventDefault();
+    }
+
     render() {
         return (
             <div className="home-view">
@@ -180,38 +186,40 @@ class Home extends Component {
                                 <p>Become part of our dream team, let's join us!</p>
                             </div>
                             <div className="col-12">
-                                <button type="button" className="btn btn-outline-primary" >WE ARE HIRING</button>
+                                <button type="submit" value="Submit" className="btn btn-outline-primary" >WE ARE HIRING</button>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section className="form-section">
-                    <div className="container pt-5 pb-5">
-                        <div className="row">
-                            <div className="col-12 col-md-6">
-                                <div className="col-12">
-                                    <h2>GIVE US A GOOD NEWS</h2>
-                                </div>
-                                <div className="col-12 pt-2">
-                                    <input type="text" className="form-control" placeholder="Name" />
-                                </div>
-                                <div className="col-12 pt-2">
-                                    <input type="text" className="form-control" placeholder="Email" />
-                                </div>
-                                <div className="col-12 pt-2">
-                                    <input type="text" className="form-control" placeholder="Subject" />
-                                </div>
-                                <div className="col-12 pt-2">
-                                    <textarea type="text" className="form-control" placeholder="Your Message" />
-                                </div>
-                                <div className="col-12 pt-2">
-                                    <button type="button" className="btn btn-outline-primary" >
-                                        SUBMIT
-                                    </button>
+                    <form onSubmit={this.handleSubmit}>
+                        <div className="container pt-5 pb-5">
+                            <div className="row">
+                                <div className="col-12 col-md-6">
+                                    <div className="col-12">
+                                        <h2>GIVE US A GOOD NEWS</h2>
+                                    </div>
+                                    <div className="col-12 pt-2">
+                                        <input type="text" className="form-control" placeholder="Name" />
+                                    </div>
+                                    <div className="col-12 pt-2">
+                                        <input type="text" className="form-control" placeholder="Email" />
+                                    </div>
+                                    <div className="col-12 pt-2">
+                                        <input type="text" className="form-control" placeholder="Subject" />
+                                    </div>
+                                    <div className="col-12 pt-2">
+                                        <textarea type="text" className="form-control" placeholder="Your Message" />
+                                    </div>
+                                    <div className="col-12 pt-2">
+                                        <button type="button" className="btn btn-outline-primary" >
+                                           SUBMIT
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </section>
             </div>
         )
