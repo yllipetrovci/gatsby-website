@@ -11,11 +11,11 @@ class CustomLink extends React.Component {
 
         return (
             <div>
-                {/* {this.props.exact ? */}
-                    {/* <ScrollLink {...this.props} onClick={this.handleClick}>{this.props.children}</ScrollLink> */}
-                    {/* : */}
+                {this.props.exact ?
+                    <ScrollLink {...this.props} onClick={this.handleClick}>{this.props.children}</ScrollLink>
+                    :
                     <Link getProps={partiallyActive()}{...this.props} onClick={this.handleClick}>{this.props.children}</Link>
-                {/* } */}
+                }
             </div>
         );
     }
