@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png';
 import '../styles/components/navigation.scss';
+import '../components/customLink';
 class Navigation extends Component {
 
     state = { openMobileNav: false };
@@ -29,7 +30,7 @@ class Navigation extends Component {
 
                     {(this.state.openMobileNav) &&
                         <div className="d-block d-md-none offset-7 col-5 mobile-nav-list">
-                            <ul className= {this.state.openMobileNav ? "active nav-mob-ul shadow": "nav-mob-ul shadow" } >
+                            <ul className={this.state.openMobileNav ? "active nav-mob-ul shadow" : "nav-mob-ul shadow"} >
                                 <li className="text-center">HOME</li>
                                 <li className="text-center">ABOUT</li>
                                 <li className="text-center">EXPERTISE</li>
@@ -41,13 +42,41 @@ class Navigation extends Component {
                         </div>}
                     <div className="d-none d-md-block offset-lg-2 offset-md-0 col-md-9 col-lg-7 pt-2 pr-0 text-right">
                         <ul className="list-inline">
-                            <li className="list-inline-item mr-3">HOME</li>
-                            <li className="list-inline-item mr-3">ABOUT</li>
-                            <li className="list-inline-item mr-3">EXPERTISE</li>
-                            <li className="list-inline-item mr-3">TEAMS</li>
-                            <li className="list-inline-item mr-3">WORKS</li>
-                            <li className="list-inline-item mr-3">PEOPLE SAY</li>
-                            <li className="list-inline-item">CONTACT</li>
+                            <li className="list-inline-item mr-3">
+                                <CustomLink>
+                                    HOME
+                                </CustomLink>
+                            </li>
+                            <li className="list-inline-item mr-3">
+                                <CustomLink>
+                                    ABOUT
+                                </CustomLink>
+                            </li>
+                            <li className="list-inline-item mr-3">
+                                <CustomLink>
+                                    EXPERTISE
+                                </CustomLink>
+                            </li>
+                            <li className="list-inline-item mr-3">
+                                <CustomLink>
+                                    TEAMS
+                                </CustomLink>
+                            </li>
+                            <li className="list-inline-item mr-3">
+                                <CustomLink>
+                                    WORKS
+                                </CustomLink>
+                            </li>
+                            <li className="list-inline-item mr-3">
+                                <CustomLink>
+                                    PEOPLE SAY
+                                </CustomLink>
+                            </li>
+                            <li className="list-inline-item">
+                                <CustomLink>
+                                    CONTACT
+                                </CustomLink>
+                            </li>
                         </ul>
                     </div>
                 </div>

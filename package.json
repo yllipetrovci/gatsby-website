@@ -40,7 +40,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "start-w": "CHOKIDAR_USEPOLLING=true npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "heroku-postbuild": "gatsby build"
   },
   "repository": {
     "type": "git",

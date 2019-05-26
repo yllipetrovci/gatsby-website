@@ -16,7 +16,6 @@ import '../styles/index.scss';
 
 const Layout = ({ children }) => (
   <div className="layout-component">
-    {/* <Navigation /> */}
     <TransitionPage>
       <main>{children}</main>
     </TransitionPage>
