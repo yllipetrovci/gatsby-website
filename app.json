@@ -1,10 +1,6 @@
 {
     "buildpacks": [
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://git.heroku.com/gatsby-example.git"
-        }
+     { "url": "heroku/nodejs" },
+     { "url": "https://github.com/heroku/heroku-buildpack-static" }
     ]
 }
