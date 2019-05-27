@@ -24,7 +24,8 @@
     "react": "^16.8.6",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-scroll": "^1.7.11"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
@@ -40,7 +41,8 @@
     "start": "gatsby serve --port 8080",
     "serve": "gatsby serve",
     "start-w": "CHOKIDAR_USEPOLLING=true npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "heroku-postbuild": "gatsby build"
   },
   "repository": {
     "type": "git",
