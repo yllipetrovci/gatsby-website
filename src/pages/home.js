@@ -196,22 +196,22 @@ class Home extends Component {
                         <div className="container pt-5 pb-5">
                             <div className="row">
                                 <div className="col-12 col-md-6">
-                                    <div className="col-12">
+                                    <div className="col-12 pl-0">
                                         <h2>GIVE US A GOOD NEWS</h2>
                                     </div>
-                                    <div className="col-12 pt-2">
+                                    <div className="col-12 pt-2 pl-0">
                                         <input type="text" className="form-control" placeholder="Name" />
                                     </div>
-                                    <div className="col-12 pt-2">
+                                    <div className="col-12 pt-2 pl-0">
                                         <input type="text" className="form-control" placeholder="Email" />
                                     </div>
-                                    <div className="col-12 pt-2">
+                                    <div className="col-12 pt-2 pl-0">
                                         <input type="text" className="form-control" placeholder="Subject" />
                                     </div>
-                                    <div className="col-12 pt-2">
+                                    <div className="col-12 pt-2 pl-0">
                                         <textarea type="text" className="form-control" placeholder="Your Message" />
                                     </div>
-                                    <div className="col-12 pt-2">
+                                    <div className="col-12 pt-2 pl-0">
                                         <button type="button" className="btn btn-outline-primary" >
                                            SUBMIT
                                         </button>
