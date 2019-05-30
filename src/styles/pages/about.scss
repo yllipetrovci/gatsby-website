@@ -13,7 +13,7 @@
     height: 50px;
     outline: none !important;
     &::placeholder {
-      color: #9b9b9b;
+      color: #999999;
       padding-top: 30px;
       padding-bottom: 30px;
       font-weight: 500;
@@ -31,7 +31,7 @@
     border: 1px solid #ef5063;
     padding: 4%;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     &::after {
       content: "\276F";
       font-size: 1em;
@@ -46,10 +46,9 @@
   }
 
   select {
-    color: #6e6e6e;
-    //     option:first {
-    //         color: red;
-    //     }
+    color: #888888;
+    // -o-appearance: none;
+    // appearance: none;
   }
 
   a {
