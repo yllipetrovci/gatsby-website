@@ -1,0 +1,60 @@
+.example-view {
+  background: #f7f7f7;
+
+  h1 {
+    color: #6e6e6e;
+    font-weight: 500;
+    font-size: 34px;
+  }
+
+  .form-control {
+    border: 2px solid #9b9b9b;
+    border-radius: 4px;
+    height: 50px;
+    outline: none !important;
+    &::placeholder {
+      color: #9b9b9b;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-weight: 500;
+    }
+  }
+
+  p {
+    color: #6e6e6e;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    background: #ef5063;
+    border: 1px solid #ef5063;
+    padding: 4%;
+    font-weight: 600;
+    font-size: 17px;
+    &::after {
+      content: "\276F";
+      font-size: 1em;
+      font-weight: bold;
+      color: #fff;
+      margin-left: -0.6em;
+      padding-right: 6px;
+      position: relative;
+      top: 0;
+      left: 33px;
+    }
+  }
+
+  select {
+    color: #6e6e6e;
+    //     option:first {
+    //         color: red;
+    //     }
+  }
+
+  a {
+    color: #5eb2e1 !important;
+    text-decoration-line: underline !important;
+    font-weight: 500;
+  }
+}
